@@ -1,0 +1,17 @@
+# antora.yml
+site:
+  title: My Project Documentation
+  start_page: ROOT:index
+  url: https://docs.myproject.com
+
+content:
+  sources:
+    - url: ./docs
+      branches: master
+
+ui:
+  bundle:
+    url: https://antora.org/ui-bundle/antora-ui-default.zip
+
+output:
+  dir: ./build
